@@ -40,9 +40,10 @@
     <p></p>
 
     <!--colspan-->
-    <!--Number of columns if the cell should snap-->
+    <!--Number of columns if the cell should span-->
+    <!--merges unoccupied cells-->
 
-    <table border="1" >
+    <table border="5" >
         <thead>
             <th colspan="3">Basic Information</th>
             <tr style="font-weight: bold">
@@ -70,8 +71,44 @@
                 <td>37</td>
                 <td>Cj@gmail.com</td>
             </tr>
+        </tbody>
+    </table>
+
+    <!--rowspan- numbers of cell should span for more than 1 column-->
+    <!--Syntax: <td rowspan = "2"-->
+        <!--Whereas the number is the value can accommodate the number of rows-->
+    <p></p> 
+    <table border="6" cellpadding="15">
+        <tbody>
+            <tr> <!--it covers the full details of the table rows-->
+                <td rowspan="4">
+                    Basic Information Sheet
+                </td>
+                <td>Name</td>
+                <td>Age</td>
+                <td>Email</td>
+            </tr>
+
+            <tr>
+                <td>Jihn Doe</td>
+                <td>29</td>
+                <td>john@email.com</td>
+            </tr>
+
+            <tr>
+                <td>Jane Doe</td>
+                <td>27</td>
+                <td>jane@email.com</td>
+            </tr>
+
+            <tr>
+                <td>Channing Doe</td>
+                <td>37</td>
+                <td>Ctattoo@email.com</td>
+            </tr>
 
         </tbody>
     </table>
+
 </body>
 </html>
