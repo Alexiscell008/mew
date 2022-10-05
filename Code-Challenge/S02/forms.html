@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <!--HTML Forms - creates inputs and outputs that can a user interact-->
+    <h1>Sample Forms</h1>
+    <form action="">
+        <!--it groups the identities of the users-->
+
+        <p>
+            <label for="fname">First Name</label>
+
+            <input type="text" id="fname" name="fname">
+            <!--Input-->
+        </p>
+
+        <p>
+            <label for="lname">Last Name</label>
+
+            <input type="text" id="lname" name="lname">
+        </p>
+
+        <p>
+            <input type="submit" value="submit">
+            <!--Submit Confirms the values input by the user-->
+            <input type="reset" value="clear">
+            <!--reset - removes the information provided by the user inside the form-->
+            
+        </p>
+    </form>
+
+    <h1>Survey Form</h1>
+
+    <form action="">
+        <p>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname">
+        </p>
+
+        <p>
+            <label for="lname">LAst Name</label>
+            <input type="text" name="lname" id="lname">           
+        </p>
+
+        <p> 
+            <label for="emailAdd">Email Address</label>
+            <input type="email" name="emailAdd" id="emailAdd">
+        </p>
+
+        <p>
+            <input type="radio" name="eType" id="eType">
+            <label for="eType">Onsite</label>
+            <input type="radio" name="oType" id="oType">
+            <label for="Online">Online</label>
+        </p>
+
+
+            What do you like about out Bootcamp?
+        <p>
+            <input type="checkbox" name="classroom" id="classroom" value="classroom">
+            <label for="classroom">Classroom Experience</label> <br />
+
+            <input type="checkbox" name="expertise" id="expertise" value="expertise">
+            <label for="expertise">Instructor Expertise</label> <br />
+
+            <input type="checkbox" name="collaboration" id="collaboration" value="collaboration">
+            <label for="collaboration">Classmates Collaboration</label> <br />
+
+            <input type="checkbox" name="others" id="others" value="others">
+            <label for="others">Others</label> <textarea name="comments" id="" cols="10" rows="1" placeholder="Type Full Comments Here."></textarea>
+        
+        </p>
+
+        <p>
+            <label for="bNum">Batch Number</label>
+            <select name="bNum" id="bNum">
+                <option value="select">Select</option>
+                <option value="b23">Batch 23</option>
+                <option value="b24">Batch 24</option>
+                <option value="b25">Batch 25</option>
+                <option value="b26">Batch 26</option>
+            </select>   
+        </p>
+
+        <p>
+            <label for="instructor">Instructor</label>
+            <input type="text" name="instructor" id="instructor">
+        </p>
+
+        <p>
+            <label for="comments">Comments for your Instructors</label>
+            <textarea name="comments" id="" cols="30" rows="10" placeholder="Type Full Comments Here."></textarea>
+            <!--Placeholders - helps the users filling up their forms-->
+            <!--maxlength -  number of character to be input-->
+        </p>
+
+        <p>
+            <button type="submit">Submit</button>
+            <!--submit is a form handler-->
+            <button type="reset">Reset</button>
+        </p>
+    </form>
+</body>
+</html>
