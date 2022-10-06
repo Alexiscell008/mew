@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+    <!-- <style> /*Internal or Embedded CSS*/
+        body{
+            background-color: aqua;
+        }
+
+        h1{
+            background-color: blueviolet;
+        }
+        
+        span{
+            background-color: rgb(207, 173, 173);
+            color: rgb(189, 172, 206);
+        }
+    </style> -->
+
+    <!--Link for External CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+    <h1>Welcom to CSS</h1>
+
+    <!--Inline CSS-->
+    <p style="color:red">
+        <span style="color:blue">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, corrupti, fuga distinctio et sequi illo laboriosam eveniet eum, fugit veniam tempore labore enim voluptatum accusantium fugiat numquam esse sunt velit.</span>
+        <!--More Powerful for inline CSS-->
+        <!--Span - Generic container for inline styling purposes-->
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nobis possimus necessitatibus accusantium fugiat temporibus placeat assumenda eligendi natus animi ab impedit sed earum suscipit magni aperiam pariatur, recusandae quasi!  
+    </p>
+
+
+    <p>
+    <!--ID Selector CSS-->
+    <h2 id="tittle-1">Hello World</h2>
+    <h2 class="tittle-2">Best Section 26</h2>
+    </p>
+
+    <form action="">
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname">
+    </form>
+
+    <!--Combinator Selector-->
+
+    <div id="parent">
+        <p>
+            <span>First Pharagraph</span>
+        </p>
+        <p>Second Pharagraph</p>
+        <section>
+            <p>Third Pharagraph</p>
+        </section>
+
+        <p>Trial Pharagraph</p>
+    </div>
+
+        <p>Fourth Pharagraph</p>
+        <p>Fifth Pharagraph</p>
+    
+        <div>
+            <p>Sixth Pharagraph</p>
+            <p>Seventh Pharagraph</p>
+        </div>
+
+        <p>Another Trial Pharagraph</p>
+
+        <div>
+            <p>Eight Pharagraph</p>
+            <p>Ninth Pharagraph</p>
+            <p>Tenth Pharagraph</p>
+        </div>
+
+        <p class="screen">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa facilis nobis illum ab blanditiis consequuntur labore natus, deleniti consectetur officiis similique dicta, delectus, dolorum sint asperiores facere fugiat itaque alias!
+        </p>
+
+        <a href="https://google.com" target="_blank">Link</a>
+
+</body>
+</html>
