@@ -1,12 +1,12 @@
 /*Attribute Selector*/
-* {
+/* * {
     font-family: 'Lobster', cursive
 }
 
 
 h1{
     color: brown;
-}
+} */
 
 /*ID Selector*/
 
@@ -78,14 +78,14 @@ selects/targets an element that is sibling element
 /* Medium Devices (landscape tablet, 768px and up) 
  */
 
- @media only screen and (min-width: 500px) {
+ /* @media only screen and (min-width: 500px) {
     .screen {background-color: pink;}
-    font-size: 12pt;
+
  }
  
  @media only screen and (min-width: 900px) {
     .screen {background-color: rgb(124, 0, 21);}
- }
+ } */
 
 
  /* Pseudo Class
@@ -93,21 +93,54 @@ selects/targets an element that is sibling element
  */
 
  /* Unlisted Link */
- a:link {
+ /* a:link {
     color: brown;
  }
 
  /* Visited Links */
- a:visited {
+ /* a:visited {
     color: greenyellow;
- }
+ } */
 
  /* Mouse over link */
- a:hover {
+ /* a:hover {
     color: orange;
- }
+ } */
 
  /* Selected link */
-a:active {
+/* a:active {
     color: rgb(237, 0, 245);
+} */ */
+
+/* Pseudo elements
+-use to style a specific part of an element
+syntax: selector::pseudo-element-{property:value}
+*/
+
+/* first line - when we shrink or resize webpages the first line of the sentence makes a change */
+/* p::first-line{
+    color: blue;
+    font-variant: small-caps;
+} */
+
+/* P::first-letter{
+    color: brown;
+    font-size: 200%;
+} */
+
+
+/* Manipulating pictures */
+#mew img{   
+    width: 10%;
+    height: 50px;
+    border-radius: 4px;
+}
+
+/* Manipulating unordered lists  */
+li + li {
+    list-style-type: none;
+}
+
+ul > li {
+    letter-spacing: 4px;
 }
