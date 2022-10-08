@@ -144,3 +144,16 @@ li + li {
 ul > li {
     letter-spacing: 4px;
 }
+
+.another_example #p1{
+    background-color: blanchedalmond;
+    padding: 20px;
+    margin: 20;
+}
+
+.kapatid {
+    background-color: blueviolet;
+    font-color: white;
+    padding: 20px;
+    margin: 20px;
+}

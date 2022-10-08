@@ -15,8 +15,8 @@ Flexbox
     background-color: aqua;
     height: 300px;
     padding: 20px;
-
-    display: flex;
+   /* Important to declare flex before accessing the properties */
+    display: flex; 
 
     /* justify-content flex property */
 
