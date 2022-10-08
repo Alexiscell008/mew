@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+#body {
+    background-image: linear-gradient(to right, rgb(250, 250, 129),rgb(118, 180, 118));
 }
 
 .first {
@@ -21,7 +25,6 @@
 }
 span {
     background-color: aquamarine;
-    border: 2px solid black;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -29,5 +32,48 @@ span {
 
     padding: 20px;
 
-    display: block;
+    /* display: block; */
+}
+
+
+/* Display Properties
+syntax: display: property
+
+-block: it lets the elements move in the next line, please see span as an example, extends entire horizontal area
+
+-inline - stays in horizontal direction
+
+-inline-block - stays in the horizontal line but block element doesn't accommdate hte whole horizontal line. However spacing from top to bottums are changed.
+*/
+
+.containerX{
+    background-color: rgb(158, 58, 240);
+    margin: 20px;
+    margin-top: 40px;
+    border: 6px solid blue;
+    padding: 20px;
+
+}
+h1 {
+    display: inline;
+    margin: 15px;
+    background-color: brown;
+    padding: 15px;
+    border: 10px dotted rgb(0, 226, 38);
+}
+
+.thirdX {
+    margin-top: 50px;
+}
+
+a {
+    background-color: rgb(255, 255, 255);
+    color: rgb(110, 1, 83);
+    margin-left: 10px;
+    margin-right: 10px;
+
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
 }
