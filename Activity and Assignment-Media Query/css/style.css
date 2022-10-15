@@ -1,4 +1,4 @@
-body nav {
+nav {
     background: rgb(93,91,129);
     background: linear-gradient(309deg, rgba(93,91,129,0.29735644257703087) 0%, rgba(29,123,196,0.8071603641456583) 28%, rgba(164,166,153,0.5970763305322129) 74%);
     top: 0;
@@ -6,31 +6,31 @@ body nav {
     position: fixed;
 }
 
-body nav ul {
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
 }
 
-body nav ul li {
+nav ul li {
     display: inline-block;
 }
 
-body nav ul li a {
+nav ul li a {
     display: block;
     padding: 5px;
     color: rgb(16, 18, 15);
 }
 
-body nav ul li a:hover {
+nav ul li a:hover {
     background-color: rgba(81, 104, 105, 0.176);
     zoom: 150%;
 }
 /* the fun part copy everything above and input appropriate for specific screen size */
 /* Extra Small Devices */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-    body nav {
+    nav {
         background: rgb(93,91,129);
         background: linear-gradient(309deg, rgba(93,91,129,0.29735644257703087) 0%, rgba(29,123,196,0.8071603641456583) 28%, rgba(176, 207, 2, 0.597) 74%);
         top: 0;
@@ -38,7 +38,7 @@ body nav ul li a:hover {
         position: fixed;
     }
     
-    body nav ul {
+    nav ul {
         margin: 0;
         padding: 10;
         list-style: none;
@@ -46,25 +46,25 @@ body nav ul li a:hover {
         float: none;
     }
     
-    body nav ul li {
+    nav ul li {
         display: block;
         font-size: 12px;
     }
     
-    body nav ul li a {
+    nav ul li a {
         display: block;
         padding: 5px;
         color: rgb(16, 18, 15);
     }
     
-    body nav ul li a:hover {
+    nav ul li a:hover {
         background-color: rgba(81, 104, 105, 0.176);
         zoom: 150%;
     }
   }
 /* Small Devices */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-    body nav {
+    nav {
         background: rgb(93,91,129);
         background: linear-gradient(309deg, rgba(93,91,129,0.29735644257703087) 0%, rgba(29,123,196,0.8071603641456583) 28%, rgba(20, 193, 109, 0.597) 74%);
         top: 0;
@@ -72,7 +72,7 @@ body nav ul li a:hover {
         position: fixed;
     }
     
-    body nav ul {
+    nav ul {
         margin: 0;
         padding: 10;
         list-style: none;
@@ -80,18 +80,18 @@ body nav ul li a:hover {
         float: none;
     }
     
-    body nav ul li {
+    nav ul li {
         display: block;
         font-size: 15px;
     }
     
-    body nav ul li a {
+    nav ul li a {
         display: block;
         padding: 5px;
         color: rgb(16, 18, 15);
     }
     
-    body nav ul li a:hover {
+    nav ul li a:hover {
         background-color: rgba(81, 104, 105, 0.176);
         zoom: 150%;
     }
@@ -99,7 +99,7 @@ body nav ul li a:hover {
 
 /* Medium Devices */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    body nav {
+    nav {
         background: rgb(93,91,129);
         background: linear-gradient(309deg, rgba(93,91,129,0.29735644257703087) 0%, rgba(29,123,196,0.8071603641456583) 28%, rgba(201, 122, 12, 0.597) 74%);
         top: 0;
@@ -107,25 +107,25 @@ body nav ul li a:hover {
         position: fixed;
     }
     
-    body nav ul {
+    nav ul {
         margin: 0;
         padding: 10;
         list-style: none;
         text-align: center;
     }
     
-    body nav ul li {
+    nav ul li {
         display: inline-block;
         font-size: 25px;
     }
     
-    body nav ul li a {
+    nav ul li a {
         display: block;
         padding: 10px;
         color: rgb(16, 18, 15);
     }
     
-    body nav ul li a:hover {
+    nav ul li a:hover {
         background-color: rgba(81, 104, 105, 0.176);
         zoom: 150%;
     }
@@ -133,7 +133,7 @@ body nav ul li a:hover {
 
 /* Large Devices */
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    body nav {
+    nav {
         background: rgb(93,91,129);
         background: linear-gradient(309deg, rgba(93,91,129,0.29735644257703087) 0%, rgba(29,123,196,0.8071603641456583) 28%, rgba(193, 20, 150, 0.597) 74%);
         top: 0;
@@ -141,25 +141,25 @@ body nav ul li a:hover {
         position: fixed;
     }
     
-    body nav ul {
+    nav ul {
         margin: 0;
         padding: 10;
         list-style: none;
         text-align: center;
     }
     
-    body nav ul li {
+    nav ul li {
         display: inline-block;
         font-size: 30px;
     }
     
-    body nav ul li a {
+    nav ul li a {
         display: block;
         padding: 10px;
         color: rgb(16, 18, 15);
     }
     
-    body nav ul li a:hover {
+    nav ul li a:hover {
         background-color: rgba(81, 104, 105, 0.176);
         zoom: 150%;
     }
@@ -167,7 +167,7 @@ body nav ul li a:hover {
 
 /* Extra Large Devices */
 @media only screen and (min-width: 1201px) and (max-width: 3840px) {
-    body nav {
+    nav {
         background: rgb(93,91,129);
         background: linear-gradient(309deg, rgba(93,91,129,0.29735644257703087) 0%, rgba(29,123,196,0.8071603641456583) 28%, rgba(207, 18, 18, 0.597) 74%);
         top: 0;
@@ -175,25 +175,25 @@ body nav ul li a:hover {
         position: fixed;
     }
     
-    body nav ul {
+    nav ul {
         margin: 0;
         padding: 10;
         list-style: none;
         text-align: center;
     }
     
-    body nav ul li {
+    nav ul li {
         display: inline-block;
         font-size: 35px;
     }
     
-    body nav ul li a {
+    nav ul li a {
         display: block;
         padding: 10px;
         color: rgb(16, 18, 15);
     }
     
-    body nav ul li a:hover {
+    nav ul li a:hover {
         background-color: rgba(81, 104, 105, 0.176);
         zoom: 150%;
     }
