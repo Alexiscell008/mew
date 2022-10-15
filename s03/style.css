@@ -118,15 +118,15 @@ syntax: selector::pseudo-element-{property:value}
 */
 
 /* first line - when we shrink or resize webpages the first line of the sentence makes a change */
-/* p::first-line{
+p::first-line{
     color: blue;
     font-variant: small-caps;
-} */
+}
 
-/* P::first-letter{
+P::first-letter{
     color: brown;
     font-size: 200%;
-} */
+}
 
 
 /* Manipulating pictures */
