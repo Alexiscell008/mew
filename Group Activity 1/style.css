@@ -68,7 +68,8 @@ body {
 		right: 0;
 		width: 280px;
 		height: 100%;
-		background: #fff;
+		background: rgb(93,91,129);
+    	background: linear-gradient(309deg, rgba(93,91,129,0.29735644257703087) 0%, rgba(188,207,222,0.8071603641456583) 28%, rgba(164,166,153,0.5970763305322129) 74%);
 		box-shadow: -1px 0 2px rgba(0, 0, 0, 0.2);
 	}
 
@@ -203,7 +204,7 @@ h2 {
 }
 
 p {
-    border: none; /*default*/
+    border: none;
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 10px;
