@@ -7,85 +7,85 @@
     <script type = "text/javascript" src="myForm.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Request Form</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Request Form V2</title>
 </head>
 
 <body>
-    <h1> ABC Company IT Support Request Form</h1>
-    <form action="" onsubmit="myFunction()">
-        <p>
-            <label for="fname">First Name :</label>
-            <input type="text" name="fname" id="fname" size="90%">
-        </p>
-
-        <p>
-            <label for="lname">Last Name :</label>
-            <input type="text" name="lname" id="lname" size="90%">           
-        </p>
-
-        <p> 
-            <label for="emailAdd">Email Address :</label>
-            <input type="email" name="emailAdd" id="emailAdd" size="90%">
-        </p>
-
-        <p> 
-            <label for="cNum">Contact Number :</label>
-            <input type="cNum" name="cNum" id="cNum" size="80" placeholder="Enter you complete number with extension or mobile number">
-        </p>
-        
-        <p>
-            <input type="radio" name="eType" id="eType">
-            <label for="eType">Onsite</label>
-            <input type="radio" name="wHome" id="wHome">
-            <label for="wHome">Work From Home</label>
-        </p>    
-
-        <p>
-        <dl>
-            <dd>
+    <h1 class="text-uppercase"> ABC Company IT Support Request Form</h1>
+    <div class="container-md d-flex justify-content-center">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="text" class="form-label">First Name</label>
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+              </div>
+              <div class="col-md-6">
+                <label for="text" class="form-label">Last Name</label>
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+              </div>
+              <div class="col-12">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-12">
+                <label for="text" class="form-label">Contact Number</label>
+                <input type="text" class="form-control" placeholder="Input number here">
+              </div>
+              <div class="col-md-6">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Onsite
+                </label>
+              </div>
+              <div class="col-md-6">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Work from home
+                </label>
+              </div>
+              <div class="col-12">
+                <label for="text" class="form-label">
                 <dt>Location :</dt>
-                <dt>For onsite, please state your Workstation No., Department, Floor and Building</dt>
-                <dt>For work from home, please complete your address and include a landmark nearest to your location.</dt>
-                <dt><input type="text" name="location" id="location" size="75"></dt>
-            </dd>
-        </dl>
-        </p>
-
-        <p>
-            <label for="servicerequest">Service Requst Type : </label>
-
-            <select name="servicerequest" id="servicerequest" multiple size="9">
-            <option value="desktoplaptopsetup">Desktop/Laptop Setup</option>
-            <option value="desktoplaptopsupport">Desktop/Laptop Support</option>
-            <option value="desktoplaptopmaintenance">Desktop/Laptop Maintenance</option>
-            <option value="softwareinstallation">Software Installation</option>
-            <option value="softwaresupport">Software Support</option>
-            <option value="computerperipheralsetup">Computer Peripheral Setup</option>
-            <option value="computerperipheraltroubleshooting">Computer Peripheral Troubleshooting</option>
-            <option value="computerperipheralmaintenance">Computer Peripheral Maintenance</option>
-            </select>
-        </p>
-
-        <p>
-            <dl>
-                <dd>
-                    <dt> Request Description :</dt>
-                    <textarea name="comments" id="" cols="30" rows="10" placeholder="Explain your service request as details as possible"></textarea>
-                </dd>
-            </dl>
-        </p>
-
-        <p>
-            Upload a picture for reference
-            <input type="file" id="uPload" name="Upload">
-        </p>
-
-        <p>
-            <button type="submit">Submit</button>
-            <!--submit is a form handler-->
-            <button type="reset">Reset</button>
-        </p>
-    </form>
+                <dt>For onsite, please state your Workstation No., Department, Floor and Building
+                For work from home, please complete your address and include a landmark nearest to your location.</dt>
+                </label>
+                <input type="text" class="form-control" id="text">
+              </div>
+              <div class="col-12">
+                <label>
+                    Service Request Type :
+                  </label>
+                <select class="form-select" size="8" multiple aria-label="multiple select">
+                    <option value="1">Desktop/Laptop Setup</option>
+                    <option value="2">Desktop/Laptop Support</option>
+                    <option value="3">Desktop/Laptop Maintenance</option>
+                    <option value="4">Software Installation</option>
+                    <option value="5">Software Support</option>
+                    <option value="6">Computer Peripheral Setup</option>
+                    <option value="7">Computer Peripheral Troubleshooting</option>
+                    <option value="8">Computer Peripheral Maintenance</option>
+                  </select>
+                </div>
+                  <div class="col-12">
+                    <label for="text" class="form-label">
+                    <dt>
+                        Request Description :
+                    </dt>
+                    <textarea name="comments" id="comments" cols="76" rows="5" placeholder="Explain your service request as details as possible"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <label for="text" class="form-label">
+                    <label>
+                        Upload a picture for reference
+                    </label>
+                    <input type="file" id="uPload" name="Upload">
+                  </div>
+                  <div class="row g-2 p-5">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="reset" class="btn btn-outline-secondary">Reset</button>
+                </div>
+      </form>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

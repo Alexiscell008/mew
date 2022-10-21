@@ -1,4 +1,20 @@
-.table {
-    background-color: rgb(163, 159, 154);
-    border: 3px;
+body {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(69,93,247,0.5186449579831933) 3%, rgba(252,70,107,0.4990371148459384) 100%);
 }
+
+h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+form {
+    border-radius: 10px;
+    background-color: beige;
+    border: color gray 2px;
+    height: 1200px;
+    width: 700px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
