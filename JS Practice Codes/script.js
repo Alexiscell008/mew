@@ -135,7 +135,4 @@ while (i != 0)
         i = i-1;
         alert ("Login Failed Now Only"+i+"Login Attempts Available");
     }
-
-
-    
 }

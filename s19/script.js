@@ -223,7 +223,7 @@ function product(a,b)
 console.log(product(5,2));
 
 //function expression
- //anonymous function beig stored in a variable
+ //anonymous function being stored in a variable
  const product_2 = function () {
     return 3 * 3;
  }
@@ -300,3 +300,50 @@ console.log(myCar); //values are already declared inside the class object
 const myNewCar = new Car ("Toyota", "Vios", "2021");
 console.log(myNewCar); //new values are displayed
 
+//ANSWER to the Activity
+/*
+
+Calculate the weight based on the user input in kilograms (kg).
+Create a function that displays the converted weight in pounds.
+Execute the function property based on the initialized object with arguments.
+
+*/
+
+class Weight {
+    constructor (name, kg){
+        this.name = name;
+        this.kilograms = kg;
+        this.pounds = kg * 2.2;
+        this.convertedWeight = function () {
+            console.log(`${this.name}'s weight in lbs is ${this.pounds}`);
+        }
+    }
+}
+
+let poundsWeight = new Weight ("Jelly", 60);
+poundsWeight.convertedWeight();
+
+//Sir Reden's Answer
+
+const funcKilogramsToPounds = (_kg = 1) => _kg * 2.20462262;
+
+class Tao {
+
+    constructor (_name, _kgWeight) {
+        this.name = _name;
+        this.kgWeight = _kgWeight;
+    }
+
+    weightInPounds() {
+        return funcKilogramsToPounds(this.kgWeight);
+    }
+
+    weightMessage() {
+        return `
+            ${this.name}'s weighs ${this.kgWeight} kilograms (kg) 
+            and is ${this.weightInPounds()} in pounds (lbs).
+        `
+    }
+}
+
+console.log(new Tao('Reden', 95).weightMessage());
