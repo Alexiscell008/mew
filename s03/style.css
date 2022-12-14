@@ -1,143 +1,143 @@
-/*Attribute Selector*/
-/* * {
-    font-family: 'Lobster', cursive
+/*Universal selector*/
+* {
+    font-family: 'Lobster', cursive;
 }
 
-
-h1{
+h1 {
     color: brown;
-} */
+}
 
 /*ID Selector*/
 
-/* #tittle-1{
-    color: rgb(122, 112, 99);
-} */
+#title-1 {
+    color: #0AB6FB;
+}
 
 /*Class Selector*/
-
-/* .tittle-2{
-    color: rgb(179, 76, 139);
+.title-2 {
+    color: violet;
     text-align: center;
-} */
-
+}
 
 /*Attribute Selector*/
-
-/* [type="text"]{
+[type="text"] {
     background-color: aquamarine;
-} */
-
-/*Universal Selector*/
-
-/* [type="text"]{
-    background-color: aquamarine;
-} */
+}
 
 /*Combinator Selector*/
 
 /*Descendant Selector
--selects or targets all elements that matches the specified element
+- selects/targets "all elements" that matches the specified element
 
 Syntax: first element child element {
     property: value
 }
 */
 
-/* div p{
-    background-color: rgb(165, 15, 15);
+ /* div p {
+    background-color: red;
 } */
 
-/*Child Selector
-selects/targets "all" elements that are all children of the specified element
+/* Child Selector
+- selects/targets "all" elements that are all "children" of a specified element
 */
+
 /* div > p {
-    background-color: brown;
-} */
+    background-color: chocolate;
+}  */
 
 /*Adjacent Sibling Selector (+)
-selects/targets an element that is directly after another element
+    - selects/targets an element that is directly after (katabi) the first selector
 */
 
-/* p+p {
-    background-color: rgb(153, 87, 6);
-} */
-
-/* div+p {
-    background-color: rgb(231, 0, 193);
-} */
-
-/*General Sibling Selector (~)
-selects/targets an element that is sibling element
-*/
-
-/* p~p {
-    background-color: antiquewhite;
-} */
-
-/* Medium Devices (landscape tablet, 768px and up) 
- */
-
- /* @media only screen and (min-width: 500px) {
-    .screen {background-color: pink;}
-
- }
- 
- @media only screen and (min-width: 900px) {
-    .screen {background-color: rgb(124, 0, 21);}
- } */
-
-
- /* Pseudo Class
- selector: pseudo-class {property:value}
- */
-
- /* Unlisted Link */
- /* a:link {
-    color: brown;
- }
-
- /* Visited Links */
- /* a:visited {
-    color: greenyellow;
- } */
-
- /* Mouse over link */
- /* a:hover {
-    color: orange;
- } */
-
- /* Selected link */
-/* a:active {
-    color: rgb(237, 0, 245);
-} */ */
-
-/* Pseudo elements
--use to style a specific part of an element
-syntax: selector::pseudo-element-{property:value}
-*/
-
-/* first line - when we shrink or resize webpages the first line of the sentence makes a change */
-p::first-line{
-    color: blue;
-    font-variant: small-caps;
+/* p + p {
+    background-color: maroon;
 }
 
-P::first-letter{
+div + p {
+    background-color: #E228BD;
+} */
+
+/* div + p {
+    background-color: red;
+} */
+
+/*
+General Sibling Selector (~)
+
+*/
+
+/* p ~ p {
+    background-color: fuchsia;
+} */
+
+/*
+Medium devices (landscape tablet, 500px and up)
+*/
+@media only screen and (min-width: 500px) {
+    .screen {
+        background-color:pink;
+        
+    }
+}
+
+/* Large Devices (laptops and desktops, 900px and up)*/
+@media only screen and (min-width: 900px) {
+    .screen {
+        background-color:blue;
+    }
+}
+
+/*Pseudo Class
+selector: pseudo-class {property:value}
+*/
+
+/*Unlisted Link*/
+a:link {
+    color:red;
+}
+
+/*visited link*/
+a:visited {
+    color:green;
+}
+
+/*mouse over link */
+a:hover {
+    color:orange;
+}
+
+/*selected link*/
+a:active {
+    color:dodgerblue;
+}
+
+/*
+    Pseudo Elements
+    - used to style a specific part of an element.
+    syntax: selector::pseudo-element {property:value}
+*/
+
+/*First line - when we shrink or resize our web pages, the first line of a sentence makes a change*/
+/* p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+} */
+
+p::first-letter {
     color: brown;
     font-size: 200%;
 }
 
-
-/* Manipulating pictures */
-#mew img{   
-    width: 10%;
-    height: 50px;
+/*manipulating pictures in CSS*/
+#my_dog img{
+    width:10%;
+    height:10%;
     border-radius: 4px;
 }
 
-/* Manipulating unordered lists  */
-li + li {
+/*manipulating unordered list */
+li {
     list-style-type: none;
 }
 
@@ -145,15 +145,16 @@ ul > li {
     letter-spacing: 4px;
 }
 
-.another_example #p1{
+
+.another_example #p1 {
     background-color: blanchedalmond;
-    padding: 20px;
-    margin: 20;
+    padding:20px;
+    margin: 20px;
 }
 
 .kapatid {
-    background-color: blueviolet;
-    font-color: white;
-    padding: 20px;
-    margin: 20px;
+    background-color: pink;
+    font-color: blue;
+    padding: 10px;
+    margin: 10px;
 }

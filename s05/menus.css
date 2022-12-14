@@ -1,16 +1,19 @@
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     overflow: hidden;
-    /* 
-    Overflow
-    hidden - hide the rest of the content
-    visible - shows all the content
-    scroll - creates scroll box when the content is overflow
-    auto - when needed, it creates scroll box
+    /*
+    Overflow properties
+
+        hidden - hides the rest of the content
+        visible - it shows all the contents
+        scroll - creates scrollbox when the content is overflowed
+        auto - when it is needed, it creates a scrollbox
+
     */
-    /* Overflow-controls what happens to the content that is too big to fit into the are */
+
+    /* Overflow - controls what happens to the content that is too big to fit into the area*/
 }
 
 li {
@@ -18,12 +21,12 @@ li {
 }
 
 li a {
-    display:inline-block;
-    padding: 8px;
-    background-color: beige;
+    display: inline-block;
+    padding: 14px 16px;
+    background-color: gray;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: rgb(171, 151, 151);
+    background-color: white;
 }

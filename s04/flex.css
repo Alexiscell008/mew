@@ -1,76 +1,80 @@
-/* 
+/*
 Flexbox
--one dimensional layout 
--row
--column
-**Properties to use that depends on flex declaration.
-    display:flex we need to add this to diplay conent
-    -justify-content
-    -flex-direction
-    -flex-wrap
-    -align-items
- */
+- one dimensional layout
+    - row
+    - column
 
- .flex-container{
-    background-color: aqua;
+**Properties to use that depends on flex declaration.
+    display: flex; we need to add display flex before accessing the properties.
+
+    - justify-content
+    - flex-direction
+    - flex-wrap
+    - align-items
+*/
+
+.flex-container {
+    background-color: lightblue;
     height: 300px;
     padding: 20px;
-   /* Important to declare flex before accessing the properties */
-    display: flex; 
+
+    display: flex;
 
     /* justify-content flex property */
 
-    /* justify-content: flex-start; */
-    /* default property */
+    /* justify-content:flex-start;  */ /*default*/
 
-
-    /* justify-content: center; */
-    /* default */
+    justify-content:center;
+    /*align items in center*/
 
     /* justify-content: flex-end; */
-    /* align items at the end */
+    /*align items at the end*/
 
     /* justify-content: space-between; */
-    /* spaces distributed in between equally */
+    /*spaces are distributed in between equally*/
 
     /* justify-content: space-around; */
-    /* Spaces are distributed around each item */
+    /*spaces are distributed around each item*/
 
     /* justify-content: space-evenly; */
-    /* Distributed spaces evenly */
-    
-    /* Flex Direction flex property */
-    /* flex-direction: row;  */
-    /* default Horizontal */
+    /*distributed item spaces evenly*/
 
-    /* flex-direction: column; */
-    /* Displayed as vertical */
+
+    /*flex direction flex property*/
+    /* flex-direction: row;  */
+    /* default - horizontal*/
+
+    /* flex-direction: column;  */
+    /*displayed as vertical*/
 
     /* flex-direction: row-reverse; */
-    /* reverse the item horizontally */
-    
+    /*reversed items horizontally*/
+
     /* flex-direction: column-reverse; */
-    /* reversed items vertically */
+    /*reversed items vertically*/
 
-    /* flex-wrap flex property */
-    /* flex-wrap: wrap; */
 
-    /* flex-wrap: nowrap; */
+    /*flex-wrap flex property*/
 
-    /* flex-wrap: wrap-reverse; */
+   flex-wrap: wrap; 
 
-    /* align-items property */
+   /* flex-wrap: nowrap; */
+
+      /* flex-wrap: wrap-reverse; */
+
+    /*align-items property*/
+
     /* align-items: stretch; */
-    /* default */
+    /*default*/
 
     /* align-items: flex-start; */
 
     /* align-items: flex-end; */
-    /* it align items of the bottom start */
+    /*aligns items vertically and it is at the bottom */
 
     align-items: center;
-    /* no overlap has been made in justify content center flex property  */
+    /*
+    no overlap has been made in justify-content: center flex property but the items itself centralized within the flexbox */
 
-    /* NOTE: FLEX PROPERTY RECOGNIZES LAST PROPERTY DECLARED */
-
- }
+    /*NOTE: WHEN WE ACCESS THE SAME FLEX PROPERTY, IT RECOGNIZES THE LAST PROPERTY THAT WAS DECLARED*/
+}

@@ -29,9 +29,10 @@ router.post('/login', (req, res) => {
 })
 
 //retrieving user information
-router.post('/details', auth.verify,(req,res) => {
-    let userData = auth.decode(req.headers.authorization)
-    userController.getProfile(userData).then (result => res.send(result));
+router.post('/details',(req,res) => {
+    // let userData = auth.decode(req.headers.authorization)
+    // userController.getProfile(userData).then (result => res.send(result));
+    console.log(true)
 })
 
 //enrollments
