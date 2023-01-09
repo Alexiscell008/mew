@@ -18,8 +18,8 @@ var heroData = [
   {
     id: 3,
     image: require('../assets/images/security.jpg'),
-    title: 'Hard on Security',
-    description: 'As this cyberthreat picture continues to develop and emerging threats, , e.g., the internet of matters, need hardware and software sciences,',
+    title: 'Expert on Security',
+    description: 'As this cyberthreat picture continues to develop and emerging threats, we are always equipped with latest techs that needed to prevent this.',
     link: 'https://www.twitter.com'
   }
 ]

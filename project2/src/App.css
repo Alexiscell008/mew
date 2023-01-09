@@ -17,13 +17,14 @@ html {
 body {
   color: #333;
   background: rgb(255,255,255);
-  background: linear-gradient(276deg, rgba(255,255,255,0.3618040966386554) 0%, rgba(255,250,250,0.563484768907563) 91%, rgba(255,0,0,1) 100%);
+  background: linear-gradient(284deg, rgba(255,255,255,0.3618040966386554) 0%, rgba(236,236,236,0.24135591736694673) 81%, rgba(0,0,0,0.894016981792717) 100%);
   font: 16px/1.6 "Muli", sans-serif;
   min-width: 320px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
 }
+
 
 img {
   max-width: 100%;
@@ -243,7 +244,7 @@ textarea {
   bottom: 20px;
   right: 20px;
   background: #ff0000;
-  border-radius: 3px;
+  border-radius: 30px;
   color: #fff;
   border: 0;
 }
@@ -256,7 +257,7 @@ textarea {
   content: '';
   border-style: solid;
   border-color: #fff;
-  border-width: 1px 1px 0 0;
+  border-width: 2px 2px 0 0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -288,7 +289,7 @@ textarea {
 #header .navbar-brand {
   color: #ff0000;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
   height: auto;
   padding: 0;
   font-size: 36x;
@@ -393,7 +394,7 @@ textarea {
   width: 60px;
   height: 60px;
   font-size: 26px;
-  color: #ff0000;
+  color: #000000;
   margin: 0 0 20px;
   display: inline-block;
   vertical-align: middle;
@@ -427,7 +428,7 @@ textarea {
 }
 
 .services-block .holder:hover .icon {
-  box-shadow: inset 0 0 0 30px #ff0000;
+  box-shadow: inset 0 0 0 30px #000000;
   color: #fff;
   font-size: 18px;
 }
@@ -499,7 +500,7 @@ textarea {
 }
 
 .testimonials-block .carousel-indicators .active {
-  background: #ff0000;
+  background: #ffffff;
 }
 
 .contact-block {
