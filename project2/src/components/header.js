@@ -15,13 +15,14 @@ function AppHeader() {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#services">Services</Nav.Link>
-            <Nav.Link href="#trackrepairstatus">Track Repair Status Status</Nav.Link>
             <Nav.Link href="#testimonials">Testimonials</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>  
-            <NavDropdown title="Profile" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#">Login</NavDropdown.Item>
-              <NavDropdown.Item href="#">Signup</NavDropdown.Item>
-              </NavDropdown>     
+            <Nav.Link href="https://app.agcs.tech/login">Login</Nav.Link>
+            <Nav.Link href="https://app.agcs.tech/signup">Signup</Nav.Link>  
+            {/* <NavDropdown title="Profile" id="basic-nav-dropdown">
+              <NavDropdown.Item href="https://app.agcs.tech/login">Login</NavDropdown.Item>
+              <NavDropdown.Item href="https://app.agcs.tech/signup">Signup</NavDropdown.Item>
+              </NavDropdown>      */}
           </Nav>
 
         </Navbar.Collapse>

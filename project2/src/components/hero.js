@@ -4,9 +4,9 @@ var heroData = [
   {
     id: 1,
     image: require('../assets/images/itsolutions.jpeg'),
-    title: 'The perfect IT Solutions',
-    description: 'Safety. Ratio. Ratio. Process. The day-to-day job challenges companies face are uniform across the board, yet they differ deeply and quality from the organization.',
-    link: 'https://www.google.com'
+    title: 'The Project Management Solution',
+    description: 'A Comprehensive Guide to the Best Project Management Tools and How They Can Help You Stay Organized.',
+    link: 'https://app.agcs.tech/login'
   },
   {
     id: 2,

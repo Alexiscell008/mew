@@ -28,7 +28,7 @@ function AppTestimonials() {
       <Container fluid>
         <div className="title-holder">
           <h2>Client testimonials</h2>
-          <div className="subtitle">what client says about us</div>
+          {/* <div className="subtitle">what client says about us</div> */}
         </div>
         <Carousel controls={false}>
           {
