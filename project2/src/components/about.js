@@ -12,7 +12,6 @@ function AppAbout() {
       <Container fluid>
         <div className="title-holder">
           <h2>About Us</h2>
-          {/* <div className="subtitle">learn more about us</div> */}
         </div>
         <Row>
           <Col sm={6}>

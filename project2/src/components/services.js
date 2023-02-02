@@ -36,8 +36,8 @@ const servicesData = [
   {
     id: 6,
     icon: 'fas fa-handshake',
-    title: 'Consultancy in Relevant Field',
-    description: 'Consider hiring business consultants when you need help or perspective on your chosen path, or a catalyst for change in your companies or business. With our expertise, we will guide you to a success and prosperity.'
+    title: 'Project Management Application',
+    description: 'Consider using our application when you need help or perspective on your chosen path, or a catalyst for change in your companies or business. With our application,  you will achieve success and prosperity.'
   }
 ]
 

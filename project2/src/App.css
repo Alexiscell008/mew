@@ -17,7 +17,7 @@ html {
 body {
   color: #333;
   background: rgb(255,255,255);
-  background: linear-gradient(284deg, rgba(255,255,255,0.3618040966386554) 0%, rgba(236,236,236,0.24135591736694673) 81%, rgba(0,0,0,0.894016981792717) 100%);
+  background: linear-gradient(291deg, rgba(255,255,255,0.3618040966386554) 0%, rgba(255,255,255,1) 59%, rgba(255, 255, 255, 0.241) 66%, rgba(56, 154, 219, 0.668) 120%);
   font: 16px/1.6 "Muli", sans-serif;
   min-width: 320px;
   -webkit-font-smoothing: antialiased;
@@ -137,7 +137,7 @@ ul,
 }
 
 .btn.btn-primary {
-  background: #000000;
+  background: #389bdb;
   border-color: #ffffff;
   padding: 13px 35px;
   font-size: 14px;
@@ -340,12 +340,12 @@ textarea {
   opacity: 0;
 }
 
-#footer {
-  background: #000000;
+/* #footer {
+  background: #ffffff;
   padding: 50px 0;
   color: #fff;
   text-align: center;
-}
+} */
 
 #footer .copyright {
   margin: 0 0 15px;
@@ -428,7 +428,7 @@ textarea {
 }
 
 .services-block .holder:hover .icon {
-  box-shadow: inset 0 0 0 30px #000000;
+  box-shadow: inset 0 0 0 30px #389bdb;
   color: #fff;
   font-size: 18px;
 }
@@ -547,7 +547,7 @@ textarea {
   display: block;
   font-size: 40px;
   margin: 0 0 15px;
-  color: #000000;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 1025px) {
