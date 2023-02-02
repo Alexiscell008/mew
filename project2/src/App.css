@@ -17,7 +17,6 @@ html {
 body {
   color: #333;
   background: rgb(255,255,255);
-  background: linear-gradient(291deg, rgba(255,255,255,0.3618040966386554) 0%, rgba(255,255,255,1) 59%, rgba(255, 255, 255, 0.241) 66%, rgba(56, 154, 219, 0.668) 120%);
   font: 16px/1.6 "Muli", sans-serif;
   min-width: 320px;
   -webkit-font-smoothing: antialiased;
