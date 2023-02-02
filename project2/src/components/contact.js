@@ -10,7 +10,6 @@ function AppContact() {
       <Container fluid>
         <div className="title-holder">
           <h2>Contact us</h2>
-          <div className="subtitle">get connected with us</div>
         </div>
         <Form className='contact-form'>
           <Row>

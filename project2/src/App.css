@@ -16,7 +16,7 @@ html {
 
 body {
   color: #333;
-  background: rgb(255,255,255);
+  background: rgb(220, 219, 219);
   font: 16px/1.6 "Muli", sans-serif;
   min-width: 320px;
   -webkit-font-smoothing: antialiased;
@@ -274,7 +274,7 @@ textarea {
   right: 0;
   top: 0;
   z-index: 9999;
-  background: rgba(255, 255, 255, 0.476);
+  background: rgba(255, 255, 255, 0.72);
   box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.5s linear;
 }
