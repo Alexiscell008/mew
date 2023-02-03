@@ -31,6 +31,9 @@ img {
   vertical-align: top;
 }
 
+
+
+
 h1,
 h2,
 h3,
@@ -319,6 +322,7 @@ textarea {
   color: #ff0000;
 }
 
+
 #header .navbar-collapse a:hover:before,
 #header .navbar-collapse a.active:before {
   right: 7px;
@@ -547,6 +551,12 @@ textarea {
   font-size: 40px;
   margin: 0 0 15px;
   color: #ffffff;
+}
+
+.footerH {
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #ff0000;
 }
 
 @media only screen and (min-width: 1025px) {
