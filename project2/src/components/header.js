@@ -17,14 +17,13 @@ function AppHeader() {
             <Nav.Link href="#services">Services</Nav.Link>
             <Nav.Link href="#testimonials">Testimonials</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>  
-            <Nav.Link href="https://app.agcs.tech/login">Login</Nav.Link>
-            <Nav.Link href="https://app.agcs.tech/signup">Signup</Nav.Link>  
+            <Nav.Link href="https://capstone-sepia.vercel.app/login">Login</Nav.Link>
+            <Nav.Link href="https://capstone-sepia.vercel.app/signup">Signup</Nav.Link>  
             {/* <NavDropdown title="Profile" id="basic-nav-dropdown">
               <NavDropdown.Item href="https://app.agcs.tech/login">Login</NavDropdown.Item>
               <NavDropdown.Item href="https://app.agcs.tech/signup">Signup</NavDropdown.Item>
               </NavDropdown>      */}
           </Nav>
-
         </Navbar.Collapse>
       </Container>
     </Navbar>
